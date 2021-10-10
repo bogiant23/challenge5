@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  justify-content: center;
+  /* background-color: red; */
+  border: 2px solid rgba(8, 9, 10, 0.1);
+  padding: 2em 3em;
+  /* width: 45em; */
+}
+
+h1 {
+  text-align: center;
+}
+
+.email, .password, .remember-me, .submit {
+  padding: 0.5em;
+}
+
+input[type="email"], input[type="password"] {
+  width: 20vw;
+  height: 5vh;
+}
+
+button {
+  width: 20.7vw;
+  background-color: #3b49df;
+  border-color: #3b49df;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+}
