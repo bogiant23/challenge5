@@ -39,7 +39,7 @@ app.post("/register", (req, res) => {
   };
 
   users.push(newUser);
-  fs.writeFileSync("/user.json", JSON.stringify(users));
+  // fs.writeFileSync("/data/user.json", JSON.stringify(users));
   res.status(201).redirect("/loginpage");
 });
 
