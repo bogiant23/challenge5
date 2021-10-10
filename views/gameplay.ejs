@@ -1,95 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style-game.css" />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <title>Rock Paper Scissors</title>
-  </head>
-  <body>
-    <div class="logo">
-      <!-- <img src="./asset/less-than-solid.svg" class="less-than" alt="less-than"> -->
-      <i class="fas fa-less-than fa-3x"></i>
-      <img class="logo1" src="/img/assets-game/logo1.png" alt="logo1" />
-      <h2 class="logo-child">ROCK PAPER SCISSORS</h2>
-    </div>
-    <div class="container">
-      <div class="player1">
-        <h3>Player 1</h3>
-        <div id="latarBatu">
-          <img
-            src="/img/assets-game/batu1.png"
-            class="player1-hand hand batu"
-            id="player1-batu"
-            alt="batu1"
-          />
-        </div>
-        <div id="latarKertas">
-          <img
-            src="/img/assets-game/kertas1.png"
-            class="player-1-hand hand kertas"
-            id="player1-kertas"
-            alt="kertas1"
-          />
-        </div>
-        <div id="latarGunting">
-          <img
-            src="/img/assets-game/gunting1.png"
-            class="player-1-hand hand kertas"
-            id="player1-gunting"
-            alt="gunting1"
-          />
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style-game.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <title>Rock Paper Scissors</title>
+</head>
+<body>
+  <div class="logo">
+    <!-- <img src="./asset/less-than-solid.svg" class="less-than" alt="less-than"> -->
+    <i class="fas fa-less-than fa-3x"></i>
+    <img class="logo1" src="/img/assets-game/logo1.png" alt="logo1">
+    <h2 class="logo-child">ROCK PAPER SCISSORS</h2>
+  </div>
+  <div class="container">
+    <div class="player1">
+      <h3>Player 1</h3>
+      <div id="latarBatu">
+        <img src="/img/assets-game/batu1.png" class="player1-hand hand batu" id="player1-batu" alt="batu1">
       </div>
-      <div class="vs">
-        <div class="only-vs">
-          <h1 class="result-text">VS</h1>
-        </div>
-        <div class="refresh">
-          <a href="#"
-            ><img
-              class="refresh2"
-              src="/img/assets-game/refresh2.png"
-              id="refresh-page"
-              alt="refresh2"
-          /></a>
-        </div>
+      <div id="latarKertas">
+        <img src="/img/assets-game/kertas1.png" class="player-1-hand hand kertas" id="player1-kertas" alt="kertas1">
       </div>
-      <div class="com">
-        <h3>COM</h3>
-        <div id="latarBatu-COM">
-          <img
-            src="/img/assets-game/batu1.png"
-            class="hand batu"
-            id="comBatu"
-            alt="batu1"
-          />
-        </div>
-        <div id="latarKertas-COM">
-          <img
-            src="/img/assets-game/kertas1.png"
-            class="hand kertas"
-            id="comKertas"
-            alt="kertas1"
-          />
-        </div>
-        <div id="latarGunting-COM">
-          <img
-            src="/img/assets-game/gunting1.png"
-            class="hand gunting"
-            id="comGunting"
-            alt="gunting1"
-          />
-        </div>
+      <div id="latarGunting">
+        <img src="/img/assets-game/gunting1.png" class="player-1-hand hand kertas" id="player1-gunting" alt="gunting1">
       </div>
     </div>
-    <script src="/js/script.js"></script>
-  </body>
+    <div class="vs">
+      <div class="only-vs">
+        <h1 class="result-text">VS</h1>
+      </div>
+      <div class="refresh">
+        <a href="#"><img class="refresh2" src="/img/assets-game/refresh2.png" id="refresh-page" alt="refresh2"></a>
+      </div>
+    </div>
+    <div class="com">
+      <h3>COM</h3>
+      <div id="latarBatu-COM">
+        <img src="/img/assets-game/batu1.png" class="hand batu" id="comBatu" alt="batu1">
+      </div>
+      <div id="latarKertas-COM">
+        <img src="/img/assets-game/kertas1.png" class="hand kertas" id="comKertas" alt="kertas1">
+      </div>
+      <div id="latarGunting-COM">
+         <img src="/img/assets-game/gunting1.png" class="hand gunting" id="comGunting" alt="gunting1">
+      </div>
+    </div>
+  </div>
+  <script src="/js/script.js"></script>
+</body>
 </html>
